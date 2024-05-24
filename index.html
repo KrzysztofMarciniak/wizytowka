@@ -20,16 +20,6 @@
         <div class="window-body" id="content">
         </div>
     </div>
-    <script>
-        function loadContent(page) {
-            fetch(page)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('content').innerHTML = data;
-                })
-                .catch(error => console.error('Error loading content:', error));
-        }
-        loadContent('index-content.html');
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
