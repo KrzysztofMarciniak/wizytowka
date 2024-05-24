@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131516; 
+}
+.window {
+    width: fit-content;
+}
+.window-body {
+    font-size: 12px;
+}
+.window-body a:hover {
+    color: #00aaff;
+}
